@@ -14,36 +14,30 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="getsize.js"></script>
+		<script src="shiftInstructions.js"></script>
 	</head>
 <body>
 	
 	<div class="container fullWidth bgImg">
 		<center>
 			<div class="wrapper">
-				<center>
-					<div class="col-xs-12 logoHolder">
-						<img class="logo" src="img/logo.png">
-					</div>
-					<div class="col-xs-12 loginForm">
-						<input class="userinput" type="username" placeholder="Username">
-						<input class="userinput" type="password" placeholder="*********">
-					</div>
-				</center>
-				<div class="col-xs-12 bottomBar">
-					<div class="col-xs-6 bottomLink" id="login">
-						<a href="welcome.html" class="bottomLink">Logga in</a>
-					</div>
-					<div class="col-xs-6 bottomLink" id="register">
-						<a href="#" class="bottomLink">Registrera</a>
-					</div>
-				</div>	
+				<div id="welcomeText">
+					<h1>Hej och välkommen till GRÖN!</h1>
+				</div>
 			</div>
+			<div id="welcomeDivider"></div>
+			<div class="bottomWrapper">
+				<div class="welcomeInstruction" id="1">
+					<h2>Text goes here</h2>
+				</div>
+				<div class="welcomeInstruction" id="2">
+					<h2>More text here</h2>
+				</div>
+				<div class="welcomeInstruction" id="3">
+					<h2>Even more text here</h2>
+				</div>
+			</div>
+			
 		</center>
-
-		<div class="container fullWidth turnBack">
-			<center>
-				<h1 id="turnIt">Vänd tillbaka telefonen, pucko.</h1>
-			</center>
-		</div>
 	</div>
 </body>

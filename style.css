@@ -93,6 +93,42 @@ a:active, a:visited, a:link {
 	display: none;
 }
 
+#welcomeText{
+	height: 50vh;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h1{
+	margin: 0px;
+	padding-top: 20vh;
+	color: #55a244;
+	font-weight: 300;
+}
+
+h2{
+	margin: 0px;
+	padding-top: 20vh;
+	vertical-align: middle;
+	font-size: 30px;
+	color: #55a244;
+	font-weight: 100;
+}
+
+#welcomeDivider{
+	background-color: #55a244;
+	width: 100vw;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 3px;
+}
+
+.bottomWrapper{
+	background-color: #ffffe8;
+	height: 50vh;
+	width: 100vw;
+}
+
 /*@media screen and (orientation:landscape){
 	.bgImg{
 		display: none;
