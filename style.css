@@ -70,9 +70,9 @@ a:active, a:visited, a:link {
     text-decoration: none;
 }
 
-.bottomLink#login{
+/*.bottomLink#login{
 	border-right: #ffffe8 solid 1.5px;
-}
+}*/
 
 #login{
 	padding-left: 0px;
@@ -129,6 +129,12 @@ h2{
 	width: 100vw;
 }
 
+.bottomLink {
+	color:white;
+	background-color:transparent;
+	outline:none;
+	border:none;
+}
 /*@media screen and (orientation:landscape){
 	.bgImg{
 		display: none;
